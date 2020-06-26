@@ -1,10 +1,10 @@
 
 def swap_elements_from_to(array)
-  array.sort do |a, b|
+  array.each do |a|
     if array.index("#{a}") = 1
-      1 
+      array.index("#{a}") + 1 
     elsif array.index("#{a}") = 2
-      -1
+      array.index("#{a}") + -1 
     else
     end
   end
