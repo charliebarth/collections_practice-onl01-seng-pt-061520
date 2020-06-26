@@ -10,3 +10,4 @@ def add_s(array)
   end
   puts new_array
 end
+add_s(["test", "feet", "shoe", "hand"])
