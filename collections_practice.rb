@@ -55,7 +55,6 @@ def kesha_maker(array)
     i = 2
     word[i] = "$"
     new_array << word
-    end
   end
   new_array
 end
