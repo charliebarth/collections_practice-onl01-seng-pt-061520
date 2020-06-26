@@ -33,9 +33,11 @@ def swap_elements(array)
   new_array = []
   array.each do |a|
     if array.index("#{a}") == 1
-      new_array << "#{array.index("#{a}") + 1}"
+       array.index("#{a}") + 1
+       new_array << array[2]
     elsif array.index("#{a}") == 2
-      new_array << "#{array.index("#{a}") + -1}" 
+      array.index("#{a}") + -1
+      new_array << array[1]
     else
       new_array << "#{a}"
     end
