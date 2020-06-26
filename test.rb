@@ -1,9 +1,12 @@
 def kesha_maker(array)
-n = array.length
-i = 3
-  while i < n
-    s[i] = "$"
-    i += 3
+  array.each do |word|
+  n = word.length
+  i = 3
+    while i < n
+      word[i] = "$"
+      i += 3
+      new_array << word
+    end
   end
   puts array
 end
