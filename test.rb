@@ -8,8 +8,8 @@ def kesha_maker(array)
       new_array << word
     end
   end
-  puts array
+  puts new_arrayarray
 end
 kesha_maker(["Kesha", "Style"])
-new_array = ["Kesha", "Style"]
+
 puts new_array.size
