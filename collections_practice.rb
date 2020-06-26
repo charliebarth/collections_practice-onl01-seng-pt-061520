@@ -8,12 +8,12 @@ def sort_array_desc(array)
     if a < b 
       1 
     elsif a > b
-    -1
-  elsif a == b 
-  0 
-  else 
+      -1
+    elsif a == b 
+      0 
+    else 
+    end
   end
- end
 end
 
 def sort_array_char_count(array)
@@ -21,10 +21,11 @@ def sort_array_char_count(array)
     if a.size < b.size
       -1 
     elsif a.size > b.size
-    1
-  elsif a.size == b.size
-  0 
-  else 
+      1
+    elsif a.size == b.size
+      0 
+    else 
+    end
   end
 end
-end
+
