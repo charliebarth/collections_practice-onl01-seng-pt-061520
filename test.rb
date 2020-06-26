@@ -1,4 +1,4 @@
 array = ["Hi", "Hello", "Hey"]
-array_with_index.each do |a, b|
+array.each_with_index do |a, b|
   puts a + b
 end
