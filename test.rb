@@ -6,3 +6,4 @@ i = 3
     i += 3
   end
 end
+kesha_maker(["Kesha"])
