@@ -1,2 +1,4 @@
 def find_a(array)
-  array.select
+  array.select do |word|
+    word.start_with?("a")
+    
