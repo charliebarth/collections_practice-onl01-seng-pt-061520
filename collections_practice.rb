@@ -35,7 +35,7 @@ def swap_elements(array)
     if array.index("#{a}") == 1
       new_array << "#{array.index("#{a}") + 1} "
     elsif array.index("#{a}") == 2
-      new_array << array.index("#{a}") + -1 
+      new_array << "array.index("#{a}") + -1" 
     else
       new_array.push("#{a}")
     end
