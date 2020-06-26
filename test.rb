@@ -1,2 +1,2 @@
 def kesha_maker(array)
-array
+n = array.length
