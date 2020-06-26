@@ -1,6 +1,5 @@
 array = ["Hi", "Hello", "Hey"]
-array.each_with_index do |a, b|
-  puts "#{a}" + " #{b}"
-  if b = 1 or 2
+array.sort_with_index do |a, b, index|
+  if index = 1 or 2
     
 end
