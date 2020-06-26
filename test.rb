@@ -1,4 +1,4 @@
 array = ["Hi", "Hello", "Hey"]
 array.each do |a|
-  puts a.index
+  puts a + array.index(a)
 end
