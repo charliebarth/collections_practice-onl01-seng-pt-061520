@@ -83,5 +83,5 @@ def add_s(array)
       new_array << word
     end
   end
-  puts new_array
+  new_array
 end
