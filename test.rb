@@ -8,3 +8,4 @@ i = 3
   puts array
 end
 kesha_maker(["Kesha", "Style"])
+puts array.length
