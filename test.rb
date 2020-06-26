@@ -6,6 +6,7 @@ i = 3
     s[i] = "$"
     i += 3
   end
+end
   puts array
 end
 kesha_maker(["Kesha", "Style"])
