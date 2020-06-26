@@ -8,4 +8,5 @@ i = 3
   puts array
 end
 kesha_maker(["Kesha", "Style"])
-puts array.length
+new_array = ["Kesha", "Style"]
+puts new_array.length
