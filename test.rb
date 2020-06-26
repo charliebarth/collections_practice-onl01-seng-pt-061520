@@ -2,7 +2,7 @@ def kesha_maker(array)
   new_array = []
   array.each do |word|
   n = word.length
-  i = 3
+  i = 2
     while i < n
       word[i] = "$"
       i += 3
