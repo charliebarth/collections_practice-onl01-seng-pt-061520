@@ -29,7 +29,7 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_element(array)
+def swap_elements(array)
   array.each do |a|
     if array.index("#{a}") == 1
       array.index("#{a}") + 1 
