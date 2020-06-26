@@ -1,4 +1,5 @@
 def kesha_maker(array)
+  new_array = []
   array.each do |word|
   n = word.length
   i = 3
