@@ -40,4 +40,5 @@ def swap_elements(array)
       new_array << "#{a}"
     end
   end
+  new_array
 end
