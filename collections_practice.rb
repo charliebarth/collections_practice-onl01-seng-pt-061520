@@ -30,12 +30,14 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  new_array = []
   array.each do |a|
     if array.index("#{a}") == 1
-      array.index("#{a}") + 1 
+      new_array.push(array.index("#{a}") + 1 
     elsif array.index("#{a}") == 2
       array.index("#{a}") + -1 
     else
+      new_array.push("#{a}")
     end
   end
 end
