@@ -9,4 +9,4 @@ i = 3
 end
 kesha_maker(["Kesha", "Style"])
 new_array = ["Kesha", "Style"]
-puts new_array.length
+puts new_array.size
